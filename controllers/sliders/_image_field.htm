@@ -1,0 +1,8 @@
+<?php
+    if ($slideImage = $record->slide_image()->first())
+        $slideImage = $slideImage->getThumb(100, null, 'landscape');
+    else
+        $slideImage = 'http://placehold.it/100x100';
+?>
+
+<img src="<?= $slideImage ?>" alt="<?= $record->title ?>" />

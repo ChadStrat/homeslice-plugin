@@ -1,0 +1,29 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+  fields:
+
+    heading:
+      tab: General
+      label: Heading
+      span: left
+      placeholder: Slide Title/Heading
+
+        
+    content:
+      tab: General
+      label: 
+      type: richeditor
+      size: huge
+      
+    slide_image:
+      tab: General
+      label: Slide Image
+      type: fileupload
+      span: left
+      options:
+        mode: image
+        image-width: 200
+        image-height: 200

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Slide
+
+# Model Form Field configuration
+form: @/plugins/radiantweb/homeslice/models/slide/fields.yaml
+
+# Model Class name
+modelClass: Radiantweb\HomeSlice\Models\Slide
+
+# Default redirect location
+defaultRedirect: radiantweb/homeslice/slides
+
+# Create page
+create:
+    title: Create Slides
+    redirect: radiantweb/homeslice/slides/update/:id
+    redirectClose: radiantweb/homeslice/slides
+
+# Update page
+update:
+    title: Edit Slides
+    redirect: radiantweb/homeslice/slides
+    redirectClose: radiantweb/homeslice/slides
+
+# Preview page
+preview:
+    title: Preview Slides

@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+slides:
+    label: Slides
+    emptyMessage: no slides selected
+    modelClass: Radiantweb\Homeslice\Models\Slide
+    list: @/plugins/radiantweb/homeslice/models/slide/columns.yaml
+    form: @/plugins/radiantweb/homeslice/models/slide/fields.yaml
+
+

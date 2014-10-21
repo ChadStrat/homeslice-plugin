@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+  fields:
+  
+    title:
+      tab: General
+      span: left
+      label: Title
+      placeholder: Slider Title
+      
+    description:
+      tab: General
+      label: Excerpt
+      type: textarea
+      size: small
+        
+    slides:
+      tab: Slides
+      tag: Slides
+      type: slideselect
+      placeholder: none

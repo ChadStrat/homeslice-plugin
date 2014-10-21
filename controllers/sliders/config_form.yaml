@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Slider
+
+# Model Form Field configuration
+form: @/plugins/radiantweb/homeslice/models/slider/fields.yaml
+
+# Model Class name
+modelClass: Radiantweb\HomeSlice\Models\Slider
+
+# Default redirect location
+defaultRedirect: radiantweb/homeslice/sliders
+
+# Create page
+create:
+    title: Create Sliders
+    redirect: radiantweb/homeslice/sliders/update/:id
+    redirectClose: radiantweb/homeslice/sliders
+
+# Update page
+update:
+    title: Edit Sliders
+    redirect: radiantweb/homeslice/sliders
+    redirectClose: radiantweb/homeslice/sliders
+
+# Preview page
+preview:
+    title: Preview Sliders
